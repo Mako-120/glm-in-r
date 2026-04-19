@@ -57,7 +57,7 @@ load('brevhins-B.RData')
 # Filter: exposure > 0, valid gender, non-missing age
 ds <- ds[ds$ExposTotal > 0 & ds$Gender %in% c("Female", "Male"), ]
 ds <- ds[!is.na(ds$DrivAge), ]
-
+```
 ---
 
 ## Practical Notes
