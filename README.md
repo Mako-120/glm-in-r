@@ -49,10 +49,8 @@ glm(ClaimAmount ~ Gender + DrivAge + VehYear + Area,
 ---
 
 ## Data & Preprocessing
-
+**Source:** [brevhins-B.RData] I found it long ago on someone's github repository and can't find it now. Please don't sue me.
 ```r
-
-**Source:** [brevhins-B.RData] I found it long ago on `someone's` github repository and `can't` find it now. Please `don't` sue me.
 
 load('brevhins-B.RData')
 
